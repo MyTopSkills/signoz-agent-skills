@@ -24,7 +24,7 @@ For coding agents with local file, shell and network access. Replace `<OWNER>` a
 
 **First time — install, configure, and diagnose:**
 
-> Install the `signoz-fastapi-perf` Skill from `https://github.com/<OWNER>/signoz-agent-skills` into the currently open FastAPI project using the repository installer and shared project scope (Codex / OpenCode). Check dependencies and whether `SIGNOZ_URL`, `SIGNOZ_SERVICE`, and `SIGNOZ_API_KEY` are set. Guide me through local configuration if anything is missing; never ask for or print secrets in chat. Remind me to gitignore `.perf-reports/`. Once ready, analyze up to 100 HTTP requests ≥5000 ms from the past 24 hours. Correlate SigNoz traces with source code and generate a performance report. Diagnosis only; do not modify business code.
+> Install the `signoz-fastapi-perf` Skill from `https://github.com/MyTopSkills/signoz-agent-skills` into the currently open FastAPI project using the repository installer and shared project scope (Codex / OpenCode). Check dependencies and whether `SIGNOZ_URL`, `SIGNOZ_SERVICE`, and `SIGNOZ_API_KEY` are set. Guide me through local configuration if anything is missing; never ask for or print secrets in chat. Remind me to gitignore `.perf-reports/`. Once ready, analyze up to 100 HTTP requests ≥5000 ms from the past 24 hours. Correlate SigNoz traces with source code and generate a performance report. Diagnosis only; do not modify business code.
 
 **Daily — one sentence:**
 
